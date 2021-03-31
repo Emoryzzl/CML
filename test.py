@@ -9,9 +9,12 @@ from networks import Generator_nu
 from PIL import Image
 import os
 import numpy as np
+import sys
 
-img_path = 'data/img/'
-save_path = 'data/pred/'
+# img_path = 'data/img/'
+# save_path = 'data/pred/'
+img_path = sys.argv[1]
+save_path = sys.argv[2]
 
 net_g = Generator_nu()
 net_g.load_state_dict(torch.load('latest_G.pth'))
