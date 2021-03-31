@@ -13,6 +13,9 @@ We highly recommend using an nVIDIA GPU with >=8GB for testing forward of CML se
 * Pytorch1.0+ and torchversion (The installation tutorial can be found on page: https://pytorch.org/)
 
 ## Usage
+git clone https://github.com/zjuzzl/CML.git
+cd CML
+
 After all the requirements libraries are installed, let's get start. We recommend using Spyder as the code IDE. Just type 'pip install spyder' to install it.
 ### Step1. CML segmentation
 First of all, you need to put the pathological images to be segmented into a folder and create a folder to save the results. (example: 'data/img/', 'data/pred/')
